@@ -42,3 +42,18 @@ git log
 clear
 git init .
 clear
+ll
+vim class1 
+cat class1 
+it status
+git status
+git add .
+git commit -m "first commit"
+git add class1 
+git commit -m "second commit"
+git add file1
+git restore class1
+ls
+ls -al
+git commit -m "first commit"
+git log
