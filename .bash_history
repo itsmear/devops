@@ -57,3 +57,27 @@ ls
 ls -al
 git commit -m "first commit"
 git log
+git status
+git version
+ll
+ls
+vim dish
+cat dish 
+git status
+git add dish 
+git commit -m "third commit"
+git log
+clear
+touch dish
+git add .
+git commit -m .
+git status
+git log
+clear
+sudo -i
+git remote add origin https://github.com/itsmear/devops.git
+ll
+ls
+git branch
+git push -u origin master
+git push origin -u master
