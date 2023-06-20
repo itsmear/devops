@@ -1,0 +1,33 @@
+##Multiple tags attached to instance by using map##
+
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+  region  = "ap-south-1"
+}
+
+resource "aws_instance" "app_server" {
+  ami           = "ami-0f5ee92e2d63afc18"
+  instance_type = "t2.micro"
+
+  tags = var.project_environment
+}
+
+variable "project_environment" {
+description = "this is used to give multiple tags"
+type = map(string)
+default = {
+project = "zomato"
+environment = "devlopment"
+}
+}
