@@ -1,4 +1,11 @@
-# devops
-this is for practice purpose
-hyey syed
-let me find together
+![terraform_1](https://github.com/itsmear/devops/assets/106878556/7e10d2e4-a6d2-4f62-a69e-8dd92c1a84be)
+![terraform_2](https://github.com/itsmear/devops/assets/106878556/0c64297e-2e57-431e-8037-d54e74c64f35)
+![terraform_3](https://github.com/itsmear/devops/assets/106878556/8ef14c54-7421-4a2b-ac10-92876b0f83bf)
+![terraform_4](https://github.com/itsmear/devops/assets/106878556/4ed03dca-c9f9-427b-9e68-bd68acdc555e)
+![terraform_5](https://github.com/itsmear/devops/assets/106878556/f6176b5a-32e9-4556-b83a-8f2727fcd486)
+![terraform_6](https://github.com/itsmear/devops/assets/106878556/327d929e-71ae-4a6a-bb42-a6914359ff87)
+![terraform_7](https://github.com/itsmear/devops/assets/106878556/91af7993-db81-480e-9c96-146b9230936a)
+![terraform_8](https://github.com/itsmear/devops/assets/106878556/faf39e0b-dfb4-49b8-b6ea-991b6029c5bd)
+![terraform_9](https://github.com/itsmear/devops/assets/106878556/e8c686e0-ca07-4a71-b1f1-5ffcaffeafd7)
+![terraform_10](https://github.com/itsmear/devops/assets/106878556/64dfbf23-c790-44d8-8c46-1d0cf9ebdb29)
+
