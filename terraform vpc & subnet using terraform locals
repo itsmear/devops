@@ -1,0 +1,25 @@
+provider "aws" {
+  region = "ap-south-1"
+}
+locals {
+  staging_env = "saging"
+}
+ #vpc cration#
+ 
+resource "aws_vpc" "staging-vpc" {
+  cidr_block = "20.10.0.0/16"
+
+  tags = {
+    Name = "${local.staging_env}-vpc-tag"
+  }
+}
+#subnet creation#
+
+resource "aws_subnet" "staging-subnet" {
+vpc_id     = aws_vpc.staging-vpc.id
+cidr_block = "20.10.0.0/16"
+
+  tags = {
+    Name = "${local.staging_env}-subnet.tag"
+  }
+}
