@@ -1,0 +1,33 @@
+provider "aws" {
+region = "ap-south-1"
+}
+
+resource "aws_instance" "star" {
+ami = "ami-0f5ee92e2d63afc18"
+instance_type = "t2.micro"
+
+
+tags = {
+Name = "Areef"
+}
+}
+
+#this is used for s3 bucket creation #
+
+resource "aws_s3_bucket" "star" {
+tags = {
+Name = "star"
+}
+}
+
+#this is used for ebs volume  creation#
+
+
+
+/*resource "aws_ebs_volume" "star" {
+availability_zone = "ap-south-1a"
+size = 10
+tags = {
+Name = "myebs"
+}
+}
