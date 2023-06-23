@@ -1,0 +1,15 @@
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "arf" {
+  ami                         = "ami-057752b3f1d6c4d6c"
+  instance_type               = "t2.micro"
+  associate_public_ip_address = var.enable_public_ip
+}
+
+variable "enable_public_ip" {
+  description = "abcd"
+  type        = bool
+  default     = false
+}
