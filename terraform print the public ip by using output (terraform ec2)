@@ -1,0 +1,26 @@
+provider "aws" {
+  region = "ap-south-1"
+}
+
+resource "aws_instance" "arf" {
+  ami           = "ami-057752b3f1d6c4d6c"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "areef"
+  }
+}
+
+output "my_console_output" {
+  value = aws_instance.arf.public_ip
+}
+
+
+/* output = "areef" {
+value = "farhan"
+}*/
+
+
+/* output = "syed" {
+value = "hello-world"
+}*/
